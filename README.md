@@ -93,3 +93,22 @@ ai-recruitment-analysis/
 ## Author
 
 Personal portfolio project by **Xudong Sun**. Built to demonstrate practical use of AI-assisted workflows, recruitment analysis, structured problem solving, and Python application development.
+
+
+## Deploy a public demo (Streamlit Community Cloud)
+
+This repository is prepared for Streamlit Community Cloud. To publish the app:
+
+1. Sign in at https://share.streamlit.io/ with GitHub.
+2. Authorize access to your public repositories if prompted.
+3. Select **Create app**.
+4. Choose repository `xswlhhh23-source/ai-recruitment-analysis`, branch `main`, and entrypoint file `app.py`.
+5. Choose an available app subdomain and click **Deploy**.
+
+No API key or secret is required for MVP 1.0. The app runs the transparent local keyword-matching method and does not send resume text to an external model.
+
+See the official [Streamlit deployment guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy).
+
+## Demo inputs
+
+A fictional sample JD is provided in `sample_data/job_description.txt`. A fictional candidate profile is provided in `sample_data/candidate_profile.txt`. Both are illustrative test data, not a real person's resume or a real vacancy.
